@@ -1,0 +1,288 @@
+@charset "UTF-8";
+html {
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+ul, li, div, p, body, h1, h2, h3, h4, h5, h6, dl, dt, dd, img{
+	margin:0;
+	padding:0;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+}
+img{
+	vertical-align:middle;
+	border:0;
+	-ms-interpolation-mode:bicubic;
+	border:0;
+	width:100%;
+}
+input {
+	-webkit-appearance:button
+}
+li {
+	list-style:none
+}
+a {
+	text-decoration:none;
+}
+
+body, html {
+	width:100%;
+	height:100%;
+	font-family:"Microsoft YaHei";
+}
+
+body {
+	font-size: 16px;
+	background:#f4f4f4;
+}
+
+.rel{
+	position: relative;
+}
+.asb{
+	position: absolute;
+}
+
+.wrap{
+	width:100%; 
+	margin:0 auto;
+	overflow:hidden;
+	background:#f4f4f4;
+
+}
+.banner{
+	width: 100%;
+	position: relative;
+}
+.banner .bannerpic{
+	width: 100%;
+}
+.banner a img{
+	width: 60%;
+	position: absolute;
+}
+.db01{
+	top: 50%;
+	left: 50%;
+	margin-left: -30%;
+	z-index: 3;
+}
+.db02{
+	top: 62%;
+	right: 0;
+	text-align: right;
+}
+.db03{
+	top: 79%;
+	left: 50%;
+	margin-left: -30%;
+}
+
+
+.newscon h2,.vedio h2,.intro h2{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.vedio h2{
+	margin-bottom: 0.313em;
+}
+.newscon h2{
+	position: relative;
+}
+.newscon h2 .more{
+	position: absolute;
+	top: 25%;
+	right: 4%;
+	width: 6%;
+}
+.newscon h2 .back{
+	position: absolute;
+	top: 25%;
+	right: 2%;
+	width: 16%;
+}
+
+.title1_nr{
+	width:100%;
+	line-height: 40px;
+	border-bottom:1px dashed #a8a8a8;
+	overflow:hidden;
+	color: #5d5d5d;
+	font-size: 0.8em;
+}
+
+.title1_nr_txt{
+	float: left;
+	width: 88%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.itle1_nr_time{
+	width: 10%;
+	float: right;
+	/*padding-right: 1%;*/
+/*	text-align: right;*/
+}
+
+.intro{
+	position: relative;
+	background: #f4f4f4;
+}
+
+
+.slideBox{ 
+	position:relative; 
+}
+
+.slideBox .bd ul{
+	width:100%;  
+	float:left; 
+}
+.slideBox .bd li{ 
+	position: relative;
+	width:100%; 
+	float:left; 
+}
+.slideBox .bd li p{
+	position: absolute;
+	top: 5%;
+	left: 8%;
+	color: #545454;
+	font-size: 0.625em;
+	width: 9.5em;
+}
+.slideBox .bd li  p span{
+	font-size: 0.9em;
+	color: #000;
+	height: 30px;
+	line-height: 30px;
+}
+.slideBox .bd li a{
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);  
+}
+.slideBox .bd li img{ 
+	float: right;
+	width: 60%;
+	text-align: right;
+}
+
+.slideBox .hd ul ,.slideBox .hd p{ 
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	margin-left: -4em;
+	z-index: 2;
+}	
+.slideBox .hd p{	
+	width: 8em;
+	line-height: 1.5em;
+	background: #000;
+	border-radius: 1em;
+	color: #fff;
+	text-align: center;
+}
+.slideBox .prev ,.slideBox .next{
+	z-index: 10;
+	width:1.188em; 
+	height:2.813em; 
+	position: absolute;
+	top: 60%;
+	margin-top: -2.5em;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.slideBox .prev{
+	left: 0;
+	background: url(../images/left.jpg) no-repeat;
+	
+}
+.slideBox .next{
+	right: 0;
+	background: url(../images/right.jpg) no-repeat;
+}
+
+
+
+
+#vd{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.vedio{
+ text-align:center;
+}
+
+
+#thegame{
+	width: 100%;
+	min-height:240px;
+	background:#fff;
+	color:#000; 
+}
+#thegame p{
+	width:90%;
+	padding-top:5%;
+	margin: 0 auto;
+	line-height: 150%;
+	font-size: 1.125em;
+	padding-bottom: 5%;
+}
+#thegame h2{
+	width:100%;
+	margin: 0 auto; 
+	text-align:center; 
+	line-height:3em;
+	font-size:1.375em; 
+	border-bottom:2px #c7c7c7 solid;
+}
+
+
+.bottom{
+	overflow:hidden; 
+	width:100%; 
+	background:#f2ebe2;
+	padding-top: 5%;
+}
+
+.bottom_sm{
+	font-size:0.9em; 
+	color:#868686; 
+	background:#f1f0f0;
+	border-top:2px solid #fff;
+	text-align:center; 
+	width:100%; 
+	padding:30px 0;
+}
+.bottom_01{
+	height:8px; 
+	width:100%; 
+	font-size:0; 
+	background:#eaeaea; 
+	border-top:2px solid #929292; 
+	position:inherit; 
+	margin-top:-2px
+}
+.bottom_sm p{ margin-bottom:6px;}
+.bottom_top{margin-right:20px; border:0; text-align:center; font-size:0}
+.bottom_top img{width:202px;}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3)  and (min-width: 375px){
+	/*iphone 6 plus*/
+.slideBox .bd li p{
+	font-size: 0.9em;
+	width: 11em;
+}
+.slideBox .bd li  p span{
+	font-size: 1.2em;
+	color: #000;
+	line-height: 3em;
+}
+
+}

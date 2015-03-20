@@ -8,34 +8,360 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<!--导航 -->
 	<div class="tt">
-		<!--导航 -->
 		<div class="nav">
 			<a href="" class="mt40"><span>官网首页</span><br>Home</a>
 			<a href="" class="mt30"><span>新闻公告</span><br>News</a>
 			<a href="" class="mt20"><span>职业介绍</span><br>Placement</a>
 			<a href="" class="mt10"><span>游戏资料</span><br>Clan glory</a>
 			<a href=""><span>礼包专区</span><br>Package</a>
-		</div>
-		<!-- 导航 -->
+		</div>	
 	</div>
+	<!-- 导航 -->
 	<div class="contain fltt rel">
 		<div class="con1000">
-			<div class="box01 fltt">
-				<div class="vedio fltt">
-					<a href="">
-						<!-- <img rel="video"  style="cursor:pointer;" video="http://v.youku.com/v_show/id_XNzY4NDc1NzMy.html?qq-pf-to=pcqq.c2c&tiny=0" vw = "250" vh = "210" height> -->
-						<span class="playbtn"></span>
-					    <span class="jiao"></span>
-					</a>
+			<div class="box01 fltt rel">
+				<div class=" video">				
+					<span class="playbtn"></span>
+					<span class="jiao"></span>
+				</div>
+				<div class="dowload asb">
+					<a href="" class="db01"></a>
+					<a href="" class="db02"></a>
+					<a href="" class="db03"></a>
 				</div>
 			</div>
-			<div class="box02 fltt"></div>
-			<div class="box03 fltt"></div>
-			<div class="box04 fltt"></div>
-			<div class="box05 fltt"></div>
+			<div class="box02 fltt">
+				<!-- 轮播图 start  -->
+				<div id="imgauto" class="fltt">
+					<div class="img-btn"> 
+						<a class="img-btn-checked">1</a> 
+						<a>2</a> 
+                        <a>3</a> 
+                        <a>4</a> 
+                    </div>
+                    <div class="img-con">
+                    	<a style="display:block" href="#"><img src="images/lunbo.png" /></a>
+                        <a href="#" ><img src="images/lunbo.png"/></a> 
+                        <a href="#"><img src="images/lunbo.png" /></a> 
+                        <a href="#"><img src="images/lunbo.png" /></a>  
+                    </div>
+                </div>
+				<!--轮播图 end -->
+				<!--新闻 start-->
+				<div class="newscon fltt">
+					<a href="#" class="more"><img src="images/more.png" alt=""></a>
+					<div class="top001" id="_show1">
+						<ul class="buttonbg">
+							<li class="li01"><a href="#">全部</a></li>
+							<li class="li02"><a href="#" onMouseMove="__show(2);">新闻</a></li>
+							<li class="li02"><a href="#" onMouseMove="__show(3);">公告</a></li>
+							<li class="li02"><a href="#" onMouseMove="__show(4);">活动</a></li>
+						</ul>
+						<div class="news01">
+							<div class="hotnews">
+								<img src="images/newspic.jpg" alt="">
+								<div class="hottxt fltt">
+									<a href="">韩系漫画炫彩风格漫画</a>
+									<span>韩系漫画炫彩风格韩韩系漫画系炫彩风格韩系漫画炫彩韩系漫画风格漫画炫彩风韩系漫画格。</span>
+								</div>
+							</div>
+							<ul>
+								<li><a href="#">[新闻]1月15日版本更新公告本更新公告公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[活动]2下载开放公告本更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[公告]成就感爆棚 《激战2》传奇武器更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[公告]《激战2进行曲》第四弹 谭维维更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[新闻]4月15日版本更新公告更新公告</a><span class="date">02-05</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top002" id="_show2">
+                    	<ul class="buttonbg">
+                        	<li class="li02"><a href="#" onMouseMove="__show(1);">全部</a></li>
+                            <li class="li01"><a href="#">新闻</a></li>
+                            <li class="li02"><a href="#"  onmousemove="__show(3);">公告</a></li>
+                            <li class="li02"><a href="#" onMouseMove="__show(4);">活动</a></li>
+                        </ul>
+                        <div class="news01">
+                        	<div class="hotnews">
+								<img src="images/newspic.jpg" alt="">
+								<div class="hottxt fltt">
+									<a href="">2韩系漫画炫彩风格漫画</a>
+									<span>韩系漫画炫彩风格韩韩系漫画系炫彩风格韩系漫画炫彩韩系漫画风格漫画炫彩风韩系漫画格。</span>
+								</div>
+							</div>
+                        	<ul>
+                        		<li><a href="#">[新闻]1月15日版本更新公告本更新公告公告</a><span class="date">02-05</span></li>
+                            	<li><a href="#">[活动]3下载开放公告本更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[公告]成就感爆棚 《激战2》传奇武器更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[公告]《激战2进行曲》第四弹 谭维维更新公告</a><span class="date">02-05</span></li>
+                                <li><a href="#">[新闻]4月15日版本更新公告更新公告</a><span class="date">02-05</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top003" id="_show3">
+                    	<ul class="buttonbg">
+                    		<li class="li02"><a href="#" onMouseMove="__show(1);">全部</a></li>
+                        	<li class="li02"><a href="#" onMouseMove="__show(2);">新闻</a></li>
+                        	<li class="li01"><a href="#" >公告</a></li>
+                        	<li class="li02"><a href="#" onMouseMove="__show(4);">活动</a></li>
+                        </ul>
+                        <div class="news01">
+                        	<div class="hotnews">
+								<img src="images/newspic.jpg" alt="">
+								<div class="hottxt fltt">
+									<a href="">3韩系漫画炫彩风格漫画</a>
+									<span>韩系漫画炫彩风格韩韩系漫画系炫彩风格韩系漫画炫彩韩系漫画风格漫画炫彩风韩系漫画格。</span>
+								</div>
+							</div>
+                        	<ul>
+                        		<li><a href="#">[新闻]1月15日版本更新公告本更新公告公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[活动]4下载开放公告本更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[公告]成就感爆棚 《激战2》传奇武器更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[公告]《激战2进行曲》第四弹 谭维维更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[新闻]4月15日版本更新公告更新公告</a><span class="date">02-05</span></li>
+                        	</ul>
+                        </div>
+                    </div>
+                    <div class="top004" id="_show4">
+                    	<ul class="buttonbg white">
+                    		<li class="li02"><a href="#" onMouseMove="__show(1);">全部</a></li>
+                        	<li class="li02"><a href="#" onMouseMove="__show(2);">新闻</a></li>
+                        	<li class="li02"><a href="#" onMouseMove="__show(3);">公告</a></li>
+                        	<li class="li01"><a href="#" >活动</a></li>
+                        </ul>
+                        <div class="news01">
+                        	<div class="hotnews">
+								<img src="images/newspic.jpg" alt="">
+								<div class="hottxt fltt">
+									<a href="">4韩系漫画炫彩风格漫画</a>
+									<span>韩系漫画炫彩风格韩韩系漫画系炫彩风格韩系漫画炫彩韩系漫画风格漫画炫彩风韩系漫画格。</span>
+								</div>
+							</div>
+                        	<ul>
+                        		<li><a href="#">[新闻]1月15日版本更新公告本更新公告公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[活动]4下载开放公告本更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[公告]成就感爆棚 《激战2》传奇武器更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[公告]《激战2进行曲》第四弹 谭维维更新公告</a><span class="date">02-05</span></li>
+                        		<li><a href="#">[新闻]4月15日版本更新公告更新公告</a><span class="date">02-05</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    <!--新闻  end -->
+			</div>
+			<div class="box03 fltt">
+				<!-- 广告位 -->
+				<div class="adcon fltt">
+					<a href="" class="ad-mg01"><img src="images/ad01.png" alt=""></a>
+					<a href=""><img src="images/ad02.png" alt=""></a>
+					<a href="" class="ad-mg03"><img src="images/ad03.png" alt=""></a>
+					<a href="" class="ad-mg03"><img src="images/ad04.png" alt=""></a>
+				</div>
+				<!-- 广告位 -->
+				<!-- 人物  -->
+				<div class="renwucon fltt rel">
+
+					<div class="top001" id="_showa1">
+						<ul class="rwbuttonbg asb">
+							<li class="renwu01_2"><a href="#">石不转</a></li>
+							<li class="renwu02"><a href="#" onMouseMove="__showa(2);">沐雨橙风</a></li>
+							<li class="renwu03"><a href="#" onMouseMove="__showa(3);">君莫笑</a></li>
+							<li class="renwu04"><a href="#" onMouseMove="__showa(4);">索科萨尔</a></li>
+							<li class="renwu05"><a href="#" onMouseMove="__showa(5);">夜雨声烦</a></li>
+						</ul>
+						<div class="renwuintro rbg01">
+							<p><span>武器：</span><br />
+							   远程、法术输出<br /><br /><br />
+							   <span>职业特点：</span><br />
+							   远程法术输出，同时又拥有治疗能力。操作简单，练级高效，自保能力强，惹人喜爱，备受其他职业玩家追捧。但PVP输出能力较弱。
+							</p>
+							<a href="#"><img src="images/liaojie.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="top002" id="_showa2">
+						<ul class="rwbuttonbg asb">
+							<li class="renwu01"><a href="#" onMouseMove="__showa(1);">石不转</a></li>
+							<li class="renwu02_2"><a href="#">沐雨橙风</a></li>
+							<li class="renwu03"><a href="#" onMouseMove="__showa(3);">君莫笑</a></li>
+							<li class="renwu04"><a href="#" onMouseMove="__showa(4);">索科萨尔</a></li>
+							<li class="renwu05"><a href="#" onMouseMove="__showa(5);">夜雨声烦</a></li>
+						</ul>
+						<div class="renwuintro rbg02">
+							<p><span>武器：</span><br />
+							   22远程、法术输出<br /><br /><br />
+							   <span>职业特点：</span><br />
+							   远程法术输出，同时又拥有治疗能力。操作简单，练级高效，自保能力强，惹人喜爱，备受其他职业玩家追捧。但PVP输出能力较弱。
+							</p>
+							<a href="#"><img src="images/liaojie.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="top003" id="_showa3">
+						<ul class="rwbuttonbg asb">
+							<li class="renwu01"><a href="#" onMouseMove="__showa(1);">石不转</a></li>
+							<li class="renwu02"><a href="#" onMouseMove="__showa(2);">沐雨橙风</a></li>
+							<li class="renwu03_2"><a href="#">君莫笑</a></li>
+							<li class="renwu04"><a href="#" onMouseMove="__showa(4);">索科萨尔</a></li>
+							<li class="renwu05"><a href="#" onMouseMove="__showa(5);">夜雨声烦</a></li>
+						</ul>
+						<div class="renwuintro rbg03">
+							<p><span>武器：</span><br />
+							   333远程、法术输出<br /><br /><br />
+							   <span>职业特点：</span><br />
+							   远程法术输出，同时又拥有治疗能力。操作简单，练级高效，自保能力强，惹人喜爱，备受其他职业玩家追捧。但PVP输出能力较弱。
+							</p>
+							<a href="#"><img src="images/liaojie.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="top004" id="_showa4">
+						<ul class="rwbuttonbg asb">
+							<li class="renwu01"><a href="#" onMouseMove="__showa(1);">石不转</a></li>
+							<li class="renwu02"><a href="#" onMouseMove="__showa(2);">沐雨橙风</a></li>
+							<li class="renwu03"><a href="#" onMouseMove="__showa(3);">君莫笑</a></li>
+							<li class="renwu04_2"><a href="#">索科萨尔</a></li>
+							<li class="renwu05"><a href="#" onMouseMove="__showa(5);">夜雨声烦</a></li>
+						</ul>
+						<div class="renwuintro rbg04">
+							<p><span>武器：</span><br />
+							   444远程、法术输出<br /><br /><br />
+							   <span>职业特点：</span><br />
+							   远程法术输出，同时又拥有治疗能力。操作简单，练级高效，自保能力强，惹人喜爱，备受其他职业玩家追捧。但PVP输出能力较弱。
+							</p>
+							<a href="#"><img src="images/liaojie.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="top005" id="_showa5">
+						<ul class="rwbuttonbg asb">
+							<li class="renwu01"><a href="#" onMouseMove="__showa(1);">石不转</a></li>
+							<li class="renwu02"><a href="#" onMouseMove="__showa(2);">沐雨橙风</a></li>
+							<li class="renwu03"><a href="#" onMouseMove="__showa(3);">君莫笑</a></li>
+							<li class="renwu04"><a href="#" onMouseMove="__showa(4);">索科萨尔</a></li>
+							<li class="renwu05_2"><a href="#">夜雨声烦</a></li>
+						</ul>
+						<div class="renwuintro rbg05">
+							<p><span>武器：</span><br />
+							   555远程、法术输出<br /><br /><br />
+							   <span>职业特点：</span><br />
+							   远程法术输出，同时又拥有治疗能力。操作简单，练级高效，自保能力强，惹人喜爱，备受其他职业玩家追捧。但PVP输出能力较弱。
+							</p>
+							<a href="#"><img src="images/liaojie.png" alt=""></a>
+                        </div>
+                    </div>
+
+				</div>
+				<!--人物 -->
+				<!-- 游戏资料 -->
+				<div class="infocon fltt rel">
+					<a href="" class="more02"><img src="images/more.png" alt=""></a>
+					<div class="infolie">
+						<h2>基础资料</h2>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<h2>基础资料</h2>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<a href="#">基础资料</a>
+						<img src="images/infopics.jpg" alt="">
+					</div>
+
+				</div>
+				<!-- 游戏资料 -->
+			</div>
+			<div class="box04 fltt">
+				<!-- 客服中心 -->
+				<div class="kefu fltt">
+					<img src="images/sanpic.png" alt="" class="scan fltt">
+					<p><span>这是我们的时代</span><br />
+						扫描关注《全职高手》官方微信，获取最新动态。
+					</p>
+					<div class="contact fltt">
+						<span><img src="images/small01.png" alt="">800032231</span>
+						<span><img src="images/small02.png" alt="">800032231@b.qq.com</span>
+					</div>
+					<a href="" class="weichat"></a>
+					<a href="" class="weibo"></a>
+				</div>
+				<!-- 客服中心 -->
+				<!-- 游戏截图 -->
+				<div class="gamepic fltt rel">
+					<a href="" class="more03 asb"><img src="images/more.png" alt=""></a>
+					<img src="images/gamepics.jpg" alt="" border="0" usemap="#Map">
+					<map name="Map">
+						<area shape="poly" coords="2,1,116,4,55,175,2,175" href="#">
+						<area shape="poly" coords="122,4,249,4,266,126,99,72" href="#">
+						<area shape="poly" coords="97,78,267,134,272,174,62,176" href="#">
+						<area shape="poly" coords="255,4,344,4,342,170,280,175" href="#">
+					</map>
+			  </div>
+			  <!-- 游戏截图 -->
+			  <!-- 游戏攻略 -->
+			  <div class="strategy fltt rel">
+			  	<a href="" class="more04 asb"><img src="images/more.png" alt=""></a>
+			  	<ul>
+			  		<li><span>▪</span><a href="">生活技能之烹饪技能详细解读</a></li>
+			  		<li><span>▪</span><a href="">称号：发现森林之秘 任务全程攻略</a></li>
+			  		<li><span>▪</span><a href="">生活技能之烹饪技能详细解读</a></li>
+			  		<li><span>▪</span><a href="">称号：发现森林之秘 任务全程攻略</a></li>
+			  		<li><span>▪</span><a href="">生活技能之烹饪技能详细解读</a></li>
+			  		<li><span>▪</span><a href="">称号：发现森林之秘 任务全程攻略</a></li>
+			  	</ul>
+			  </div>
+			  <!-- 游戏攻略 -->
+			</div>
+			<div class="box05 fltt rel">			
+				<!-- 媒体 -->
+				<div class="hz_box">
+					<ul class="hz_list clearfix" id="hz_list">
+						<li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                		<li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                        <li><a href="" target="_blank"><img alt="" src="images/meti01.jpg"></a></li>
+                    </ul>
+                </div>
+                <!-- 媒体 -->
+
+			</div>
 		</div>
 	</div>
-
+	<div class="footer fltt">
+        <P>About.us | Copy right@北京飞流九天科技有限公司</P>
+        <P>爱游戏，爱生活，也爱美女。</P>
+        <P>飞流iPhone专区，致力于为同志们推荐最好的iPhone游戏！</P>
+        <P>我们提供最新的游戏评测、游戏攻略、新游预告，还为你解决各种用机难题！</P>
+        <P>Love is love!</P>
+    </div>
+    <!-- 视频弹窗 -->
+    <div class="video-sourse disN">
+    	<div class="video-sourse-wrap"></div>   
+    </div>
+    <!-- 视频弹窗 -->
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 </body>
 </html>
